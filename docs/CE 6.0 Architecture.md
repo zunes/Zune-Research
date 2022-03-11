@@ -30,4 +30,4 @@ GWES provides graphical functionality.
 - https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ee504804(v=winembedded.60)
 
 ---
-[[Zune]], [[Windows CE 6.0]]
+[[Windows CE 6.0]]

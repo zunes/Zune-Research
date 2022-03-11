@@ -1,5 +1,5 @@
 # Zune Firmware Files
-The following Information was taken from xda-developers^[https://forum.xda-developers.com/t/the-b000ff-bin-format-detailed.801167/] forum:
+The following Information was taken from [xda-developers](https://forum.xda-developers.com/t/the-b000ff-bin-format-detailed.801167/) forum:
 
 The Zune uses the ``B000FF`` file format. It is used by Windows CE devices to write to flash memory. It saves space by skipping empty areas.
 
@@ -63,4 +63,5 @@ The missing blocks are usually empty areas (or at least that's what are in the f
 
 These steps can be repeated with the other files as well.
 
-[[Zune]], [[Bootloader]], [[File Types]]
+---
+[[Bootloader]], [[File Types]]
