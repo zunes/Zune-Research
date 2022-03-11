@@ -1,14 +1,11 @@
-site_name: obsidian-mkdocs template
+site_name: Zune Research
 
 theme:
     name: 'material'
     palette:
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: blue
+      primary: deep orange
+      accent: light blue
 
 
 # Extensions
