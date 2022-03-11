@@ -20,8 +20,8 @@ Useful notes to install the XNA framework on windows 10:
 8.  then goto C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\Setup
 9.  run everything you see in there
 
-## Links
-- https://www.reddit.com/r/Zune/comments/m5yx74/finally_got_xna_31_studio_running/
-- https://web.archive.org/web/20100526061444/http://zunedevwiki.org/wiki/getting_started/developer/prerequisites
-- https://www.reddit.com/r/Zune/comments/c38f7/play_gameboy_games_on_your_zune_hd/
+## References
+- [Reddit - Finally got XNA 3.1 studio running](https://www.reddit.com/r/Zune/comments/m5yx74/finally_got_xna_31_studio_running/)
+- [Zune Dev Wiki (through web.archived.org)](https://web.archive.org/web/20100526061444/http://zunedevwiki.org/wiki/getting_started/developer/prerequisites)
+- [Reddit - Play Gameboy games on your Zune HD](https://www.reddit.com/r/Zune/comments/c38f7/play_gameboy_games_on_your_zune_hd/)
 

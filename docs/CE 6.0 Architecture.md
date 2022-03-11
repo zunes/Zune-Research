@@ -26,8 +26,8 @@ GWES provides graphical functionality.
 
 
 ## References
-- https://docs.microsoft.com/en-us/previous-versions/windows/embedded/bb331824(v=msdn.10)
-- https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ee504804(v=winembedded.60)
+- [Microsoft - Windows Embedded CE 6.0 Advanced Memory Management](https://docs.microsoft.com/en-us/previous-versions/windows/embedded/bb331824(v=msdn.10))
+- [Microsoft - Windows Embedded CE Architecture](https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ee504804(v=winembedded.60))
 
 ---
 [[Windows CE 6.0]]
