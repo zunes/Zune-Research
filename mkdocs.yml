@@ -3,11 +3,21 @@ site_name: obsidian-mkdocs template
 theme:
     name: 'material'
     palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: red
+      primary: pink
+      accent: blue
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
