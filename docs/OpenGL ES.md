@@ -1,5 +1,9 @@
 # OpenGL ES
-The Zune HD supportes the OpenGL ES 2.0 standard.
+The Zune HD supportes the OpenGL ES 2.0 standard, which is basicaly OpenGL 2.0 but with a programmable render pipeline.
+
+## Getting Started
+All you have to do in order to initialize OpenGL in your application is to include ``zdkgl.h`` and call ``ZDKGL_Initialize()`` on startup. Make sure to call ``ZDKGL_Cleanup()`` before exeting. 
+Sourround your render code with ``ZDKGL_BeginDraw()`` and ``ZDKGL_EndDraw()`` and you are good to go.
 
 ## Extensions
 The Zune HD also supports the following extensions. 

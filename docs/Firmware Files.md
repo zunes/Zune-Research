@@ -1,7 +1,7 @@
 # Firmware Files
 The following Information was taken from [xda-developers](https://forum.xda-developers.com/t/the-b000ff-bin-format-detailed.801167/) forum:
 
-The Zune uses the ``B000FF`` file format. It is used by Windows CE devices to write to flash memory. It saves space by skipping empty areas.
+The Zune uses the ``B000FF`` file format for its firmware. It is used by Windows CE devices to write to flash memory. It saves space by skipping empty areas.
 
 There is a tutorial on how to use the tools [[Firmware Files#Dumping Tutorial|at the bottom]].
 
