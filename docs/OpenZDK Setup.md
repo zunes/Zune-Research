@@ -2,6 +2,9 @@
 This step by step guide will show you how to install all the tools needed to develop OpenZDK Apps on Windows 10. Make sure to follow all the steps in the right order.
 **Note:** Installing the actual OpenZDK is only necessary if you want to develop applications or use tooling associated with it.
 
+- You can download all the installers (except Visual Studio 2008) from [here](https://www.mediafire.com/file/zshfm8ocyskzm4u/Installers.zip/file).
+- Visual Studio 2008 Pro (90 day trial) can be downloaded from Microsoft [here](https://download.microsoft.com/download/8/1/d/81d3f35e-fa03-485b-953b-ff952e402520/VS2008ProEdition90dayTrialENUX1435622.iso).
+
 ## Installing prerequisites
 1. Install ``Visual Studio 2008`` Professional or better
 	Make sure to select  ``Smart Device Programmability`` when installing
