@@ -13,6 +13,7 @@ This step by step guide will show you how to install all the tools needed to dev
 	2. Run the installer with the ``/x`` option like this: ``XNA3.1.exe /x``
 	3. Run every **MSI** installer you see that got extracted
 	4. Run everything in ``C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\Setup``
+	
 3. Install ``Zune HD extensions for XNA Game Studio.msi``
 
 ## Setup your Zune in XNA Game Studio
