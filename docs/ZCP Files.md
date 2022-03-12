@@ -12,3 +12,6 @@ f) Storage containers are what games use for storing data, and have to be manual
 g) The built-in Zune games are both signed and encrypted, making them near-impossible to modify and difficult to even analyze.  
 h) The integrated runtime, which is deployed along with the games, is not encrypted, but it is signed. It isn't much different from the ordinary runtime that's deployed automatically along with user-created Zune games.  
 i) The built-in games and integrated runtime are not deployed through the same method that user-created games are: they're dumped straight onto the Zune.
+
+---
+[[File Types]]
