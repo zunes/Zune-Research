@@ -17,13 +17,15 @@ The Device Manager (``Device.DLL``) runs in kernel-mode and loads the device dri
 This used to be the kernel, but now it just contains a thin abstraction layer and compatibility layer, provided by the OEM. The actual Kernel now lives in ``Kernel.DLL``.
 
 ## Security
-Windows CE 6.0 removed both the "all kernel mode" (running everything in kernel mode) feature and the trusted model (trusted and untrusted .exes and dlls). It also does not have the Access Control List of newer desktop systems.
+Windows CE 6.0 removed both the "all kernel mode" (running everything in kernel mode) feature and the trusted model (trusted and untrusted .EXEs and DLLs). It also does not have the Access Control List of newer desktop systems.
 
 The system also provides a separate handle table for each process.
 
 ## GWES
 GWES provides graphical functionality.
 
+## Memory Layout
+[Microsoft - Memory Layout](https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ee483001(v=winembedded.60))
 
 ## References
 - [Microsoft - Windows Embedded CE 6.0 Advanced Memory Management](https://docs.microsoft.com/en-us/previous-versions/windows/embedded/bb331824(v=msdn.10))
