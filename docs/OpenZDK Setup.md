@@ -1,5 +1,6 @@
 # OpenZDK Setup
 This step by step guide will show you how to install all the tools needed to develop OpenZDK Apps on Windows 10. Make sure to follow all the steps in the right order.
+
 **Note:** Installing the actual OpenZDK is only necessary if you want to develop applications or use tooling associated with it.
 
 - You can download all the installers (except Visual Studio 2008) from [here](https://www.mediafire.com/file/zshfm8ocyskzm4u/Installers.zip/file).
@@ -8,7 +9,8 @@ This step by step guide will show you how to install all the tools needed to dev
 ## Installing prerequisites
 1. Install ``Visual Studio 2008`` Professional or better
 	
-	Make sure to select  ``Smart Device Programmability`` when installing
+	Make sure to select  ``Smart Device Programmability`` when installing. This is only available in the Pro versions of Visual studio.
+	
 3. (Optional) Install ``Visual Studio 2008 SP1``
 2. Install ``XNA Game Studio 3.1`` (``XNAGS31_setup.exe``)
 	
@@ -53,6 +55,7 @@ This step by step guide will show you how to install all the tools needed to dev
 
 
 **That's it! Have fun developing :)**
+
 Check out the [[Official Documentation]] or [[OpenZDK Reference]] for more information about the available APIs.
 
 ## References

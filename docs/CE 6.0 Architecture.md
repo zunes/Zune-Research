@@ -10,8 +10,8 @@ Any DLL that is use by both kernel-mode and user-mode processes will be loaded a
 ### Services
 Services run in user-mode and are handled by the ``Services Manager``.
 
-### Device Manage
-The Device Manager (``Device.DLL``) runs in kernel-mode and loads the device drivers. It supports loading drivers on boot or on demand. Windows also provides a user-mode Device Manager for drivers installed after shipping for example.
+### Device Manager
+The [[Device Manager]] (``Device.DLL``) runs in kernel-mode and loads the device drivers. It supports loading drivers on boot or on demand. Windows also provides a user-mode Device Manager for drivers installed after shipping for example.
 
 ### NK.EXE
 This used to be the kernel, but now it just contains a thin abstraction layer and compatibility layer, provided by the OEM. The actual Kernel now lives in ``Kernel.DLL``.
