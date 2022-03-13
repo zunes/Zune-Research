@@ -6,13 +6,15 @@ Here I will be sharing all the information I find about the Zune. I will mostly 
 
 For a guide on how to install the OpenZDK click [[OpenZDK Setup|here]].
 
+Files marked with 🗺️ (World Map Emoji) are overview notes and link you to all the subtopics in that topic. 
+
 ## Topics
-- [[Zune HD]]
-- [[Official Documentation]]
-- [[OpenZDK]]
-- [[OpenGL ES]]
-- [[Windows CE 6.0]]
-- [[File Types]]
+- [[🗺️ OpenZDK]]
+- [[🗺️ OpenGL ES]]
+- [[🗺️ Official Documentation]]
+- [[🗺️ Windows CE 6.0]]
+- [[🗺️ File Types]]
+- [[🗺️ XNA Framework]]
 
 
 ![[ZuneHD.jpg]]

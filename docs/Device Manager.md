@@ -11,4 +11,4 @@ In Windows Embedded CE 6.0, the kernel performs a full access check on first lev
 - [Microsoft - Device Manager Security](https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ee484890(v=winembedded.60))
 
 ---
-[[Windows CE 6.0]]
+[[🗺️ Windows CE 6.0]]

@@ -9,4 +9,4 @@ Liberate actually implemented a somewhat working fix in ``RelayInput.exe``, whic
 I am currently [[Keep WIFI Enabled|looking for a way]] to really fix this.
 
 ---
-[[OpenZDK]]
+[[🗺️ OpenZDK]]

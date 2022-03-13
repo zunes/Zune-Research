@@ -32,4 +32,4 @@ GWES provides graphical functionality.
 - [Microsoft - Windows Embedded CE Architecture](https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ee504804(v=winembedded.60))
 
 ---
-[[Windows CE 6.0]]
+[[🗺️ Windows CE 6.0]]

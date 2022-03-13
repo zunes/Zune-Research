@@ -2,6 +2,7 @@
 The Zune HD runs on Windows CE 6.0.
 
 ## Topics
+- [[🗺️ Official Documentation#CE 6 0 Documentation]]
 - [[CE 6.0 Architecture]]
-- [[CE 6.0 Documentation]]
 - [[Device Manager]]
+- [[Partitions and Filesystems]]
