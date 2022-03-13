@@ -7,9 +7,11 @@ This step by step guide will show you how to install all the tools needed to dev
 
 ## Installing prerequisites
 1. Install ``Visual Studio 2008`` Professional or better
+	
 	Make sure to select  ``Smart Device Programmability`` when installing
 3. (Optional) Install ``Visual Studio 2008 SP1``
 2. Install ``XNA Game Studio 3.1`` (``XNAGS31_setup.exe``)
+	
 	On Windows 10 this needs some extra steps as the installer is broken. Thanks to [this](https://www.reddit.com/r/Zune/comments/m5yx74/finally_got_xna_31_studio_running/) Reddit Post for elaborating how to extract the installer:
 	
 	1. Open a **Command Prompt** and navigate to the directory of the installer
