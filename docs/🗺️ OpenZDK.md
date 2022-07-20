@@ -8,6 +8,7 @@ Most of the documentation can be access on ``zunedevwiki.org`` (use webarchive).
 ## Topics
 - [[OpenZDK Setup]]
 - [[OpenZDK Reference]]
+- [[Activating Visual Studio 2008 Profressional]]
 
 ## Apps
 - [[Liberate]]

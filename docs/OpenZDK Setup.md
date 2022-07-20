@@ -58,6 +58,8 @@ This step by step guide will show you how to install all the tools needed to dev
 
 Check out the [[🗺️ Official Documentation]] or [[OpenZDK Reference]] for more information about the available APIs.
 
+To activate VS 2008 [[Activating Visual Studio 2008 Profressional|look here]].
+
 ## References
 - [Reddit - Finally got XNA 3.1 studio running](https://www.reddit.com/r/Zune/comments/m5yx74/finally_got_xna_31_studio_running/)
 - [ZuneDevWiki - Installing prerequisites](https://web.archive.org/web/20100526061444/http://zunedevwiki.org/wiki/getting_started/developer/prerequisites)
