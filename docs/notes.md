@@ -1,0 +1,1 @@
+C:\Windows\assembly\GAC_MSIL\Microsoft.Xna.GameStudio.DeviceManagement\3.1.0.0__6d5c3888ef60e27d

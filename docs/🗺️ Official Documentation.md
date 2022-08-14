@@ -4,6 +4,10 @@ Here are some of the official docs I found about the Zune HD and its hardware.
 ## Documentation
 - [[ce6_tegra_250_pack_5265393.pdf]]
 - [[XNA_Game_Studio_3.1.pdf]]
+- [[tegra_250_hw_setup.pdf]]
+- [[tegra_gles2_development.pdf]]
+- [[tegra_perfhud_quickstart_1_1.pdf]]
+- [[win_es2emu_pack_v100.pdf]]
 
 ## CE 6.0 Documentation
 - [CE 6.0 Technical Articles](https://docs.microsoft.com/en-us/previous-versions/windows/embedded/bb643806(v=msdn.10)?redirectedfrom=MSDN "https://docs.microsoft.com/en-us/previous-versions/windows/embedded/bb643806(v=msdn.10)?redirectedfrom=MSDN") 

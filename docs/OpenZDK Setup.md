@@ -7,7 +7,7 @@ This step by step guide will show you how to install all the tools needed to dev
 - Visual Studio 2008 Pro (90 day trial) can be downloaded from Microsoft [here](https://download.microsoft.com/download/8/1/d/81d3f35e-fa03-485b-953b-ff952e402520/VS2008ProEdition90dayTrialENUX1435622.iso).
 
 ## Installing prerequisites
-1. Install ``Visual Studio 2008`` Professional or better
+1. Install ``Visual Studio 2008`` Professional
 	
 	Make sure to select  ``Smart Device Programmability`` when installing. This is only available in the Pro versions of Visual studio.
 	
