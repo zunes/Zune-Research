@@ -1,0 +1,1013 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Firmware Files - Zune Research</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.08040f6c.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ff6e42">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="light-blue">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#firmware-files" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Zune Research" class="md-header__button md-logo" aria-label="Zune Research" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Zune Research
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Firmware Files
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Zune Research" class="md-nav__button md-logo" aria-label="Zune Research" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Zune Research
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Activating%20Visual%20Studio%202008%20Profressional/" class="md-nav__link">
+        Activating VS 2008 Professional
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CE%206.0%20Architecture/" class="md-nav__link">
+        CE 6.0 Architecture
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Device%20Manager/" class="md-nav__link">
+        Device Manger
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Firmware Files
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Firmware Files
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file-format" class="md-nav__link">
+    File Format
+  </a>
+  
+    <nav class="md-nav" aria-label="File Format">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#header" class="md-nav__link">
+    Header
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#binary-block" class="md-nav__link">
+    Binary Block
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+    <nav class="md-nav" aria-label="How it works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-check-the-integrity-of-a-b000ff-file" class="md-nav__link">
+    How to check the integrity of a B000FF file
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-convert-a-b000ff-file-to-an-absolute-binary-format-file-nb0" class="md-nav__link">
+    How to convert a B000FF file to an absolute binary format file (NB0)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#current-tools-available-to-work-with-bin-files" class="md-nav__link">
+    Current tools available to work with BIN files
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumping-tutorial" class="md-nav__link">
+    Dumping Tutorial
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumpromexe-source-code" class="md-nav__link">
+    Dumprom.exe source code
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gem%20Files/" class="md-nav__link">
+        Gem Files
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Keep%20WIFI%20Enabled/" class="md-nav__link">
+        Keep WIFI Enabled
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Liberate/" class="md-nav__link">
+        Liberate
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenZDK%20Reference/" class="md-nav__link">
+        Open ZDK Reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenZDK%20Setup/" class="md-nav__link">
+        OpenZDK Setup
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Partitions%20and%20Filesystems/" class="md-nav__link">
+        Partitions and Filesystems
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Paths/" class="md-nav__link">
+        Paths
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Workbench/" class="md-nav__link">
+        Workbench
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../XNA%20Apps/" class="md-nav__link">
+        XNA Apps
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ZCP%20Files/" class="md-nav__link">
+        ZCP Files
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ZDKSystem_ShowSplashScreen/" class="md-nav__link">
+        ZDKSystem_ShowSplashScreen(int flag)
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Zune%20HD/" class="md-nav__link">
+        Zune HD
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%F0%9F%97%BA%EF%B8%8F%20File%20Types/" class="md-nav__link">
+        🗺️ File Types
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%F0%9F%97%BA%EF%B8%8F%20Official%20Documentation/" class="md-nav__link">
+        🗺️ Official Documentations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%F0%9F%97%BA%EF%B8%8F%20OpenGL%20ES/" class="md-nav__link">
+        🗺️ OpenGL ES
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%F0%9F%97%BA%EF%B8%8F%20OpenZDK/" class="md-nav__link">
+        🗺️ OpenZDK
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%F0%9F%97%BA%EF%B8%8F%20Windows%20CE%206.0/" class="md-nav__link">
+        Windows CE 6.0
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%F0%9F%97%BA%EF%B8%8F%20XNA%20Framework/" class="md-nav__link">
+        🗺️ XNA Framework
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_24" type="checkbox" id="__nav_24" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_24">
+          OpenZDK Headers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="OpenZDK Headers" data-md-level="1">
+        <label class="md-nav__title" for="__nav_24">
+          <span class="md-nav__icon md-icon"></span>
+          OpenZDK Headers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenZDK%20Headers/zdkaudio.h/" class="md-nav__link">
+        zdkaudio.h
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenZDK%20Headers/zdkcontent.h/" class="md-nav__link">
+        zdkcontent.h
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenZDK%20Headers/zdkdisplay.h/" class="md-nav__link">
+        zdkdisplay.h
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenZDK%20Headers/zdkfont.h/" class="md-nav__link">
+        zdkfont.h
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenZDK%20Headers/zdkimage.h/" class="md-nav__link">
+        zdkimage.h
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenZDK%20Headers/zdkinput.h/" class="md-nav__link">
+        zdkinput.h
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file-format" class="md-nav__link">
+    File Format
+  </a>
+  
+    <nav class="md-nav" aria-label="File Format">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#header" class="md-nav__link">
+    Header
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#binary-block" class="md-nav__link">
+    Binary Block
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+    <nav class="md-nav" aria-label="How it works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-check-the-integrity-of-a-b000ff-file" class="md-nav__link">
+    How to check the integrity of a B000FF file
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-convert-a-b000ff-file-to-an-absolute-binary-format-file-nb0" class="md-nav__link">
+    How to convert a B000FF file to an absolute binary format file (NB0)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#current-tools-available-to-work-with-bin-files" class="md-nav__link">
+    Current tools available to work with BIN files
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumping-tutorial" class="md-nav__link">
+    Dumping Tutorial
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumpromexe-source-code" class="md-nav__link">
+    Dumprom.exe source code
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="firmware-files">Firmware Files<a class="headerlink" href="#firmware-files" title="Permanent link">&para;</a></h1>
+<p>The following Information was taken from <a href="https://forum.xda-developers.com/t/the-b000ff-bin-format-detailed.801167/">xda-developers</a> forum:</p>
+<p>The Zune uses the <code>B000FF</code> file format for its firmware. It is used by Windows CE devices to write to flash memory. It saves space by skipping empty areas.</p>
+<p>There is a tutorial on how to use the tools <a href="./#dumping-tutorial">at the bottom</a>.</p>
+<h2 id="file-format">File Format<a class="headerlink" href="#file-format" title="Permanent link">&para;</a></h2>
+<h3 id="header">Header<a class="headerlink" href="#header" title="Permanent link">&para;</a></h3>
+<pre><code class="language-cpp">struct BIN_HEADER {
+char[7] Signature;      // B000FF\n signature   
+DWORD ImageStart;    // Image Start
+DWORD ImageLength; // Image Length
+};
+</code></pre>
+<h3 id="binary-block">Binary Block<a class="headerlink" href="#binary-block" title="Permanent link">&para;</a></h3>
+<pre><code class="language-cpp">struct BIN_BLOCK {
+DWORD Address; // Address where the block should be flashed
+DWORD Size; // Size of the block that is being flashed
+DWORD Checksum; // Checksum (CRC32) of the block data
+};
+</code></pre>
+<p>[[TODO]]: Rewrite the text bellow:</p>
+<h3 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h3>
+<p>The file starts with the header structure, followed by N number of block structures each one followed by the respective data of the block. A block with Address / Size / Checksum set to 0 is a termination block and marks the end of the file. </p>
+<p>Note that some blocks can be missing and depending on the bootloader the region could be left untouched or erased (erased bytes could have any value, it depends on the type of memory (NAND erased bytes have FF value) and on the bootloader).  </p>
+<h4 id="how-to-check-the-integrity-of-a-b000ff-file">How to check the integrity of a B000FF file<a class="headerlink" href="#how-to-check-the-integrity-of-a-b000ff-file" title="Permanent link">&para;</a></h4>
+<p>Read the header, read the first block and check that its address equals <code>ImageStart</code>, check that the termination block is present and check that the last block before the termination block address equals the sum of <code>ImageStart + ImageLength</code>.  </p>
+<h4 id="how-to-convert-a-b000ff-file-to-an-absolute-binary-format-file-nb0">How to convert a B000FF file to an <a href="http://msdn.microsoft.com/en-us/library/aa448347.aspx">absolute binary format file (NB0)</a><a class="headerlink" href="#how-to-convert-a-b000ff-file-to-an-absolute-binary-format-file-nb0" title="Permanent link">&para;</a></h4>
+<p>Allocate an empty file with the size of <code>ImageLength</code> and write each of the blocks' data inside at the absolute file position of <code>Block Address - ImageStart</code>.  </p>
+<p>The missing blocks are usually empty areas (or at least that's what are in the files generated by Microsoft tools) that could be ignored by the bootloader or erased (with the bytes values depending on the memory type and on the bootloader code) but in case you encounter them make sure you investigate what those missing belong to, it could be a fancy way for the manufacturer to leave some areas reserved for the phone or bootloader and should be left untouched when re-creating the file.  </p>
+<h4 id="current-tools-available-to-work-with-bin-files">Current tools available to work with BIN files<a class="headerlink" href="#current-tools-available-to-work-with-bin-files" title="Permanent link">&para;</a></h4>
+<ul>
+<li>CVRTBIN/VIEWBIN to convert the file to a "ROM" file (ABX/NB0/ROM memory image, call it how you want)</li>
+<li>OSNBTOOL (suggested, because it lets you figure out what is in the file) that can do the following operating:<ul>
+<li>split (-sp): finds the OS.NB inside the BIN and saves the OS.NB and the unrecognized data that comes before and after it</li>
+<li>generate BIN (-2bin): converts a file to the BIN format and has two important switches, one to set the start address of the data and one to tell it to not write the header (so that you can example append other BIN data in front of it)</li>
+<li>fix BIN header (-fixbinheader) scans the BIN file and adjusts the imagestart and imagelength according to the content</li>
+</ul>
+</li>
+</ul>
+<h2 id="dumping-tutorial">Dumping Tutorial<a class="headerlink" href="#dumping-tutorial" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Get the <strong>start</strong> and the <strong>length</strong> of the Image 
+    <code>$ viewbin.exe nk.bin</code></p>
+<p><code>shell
+ViewBin... NK.bin
+Image Start = 0x00014000, length = 0x00B7A4E4
+            Start address = 0x00023F10</code>
+Note down the <strong>Image Start</strong> and the <strong>length</strong></p>
+</li>
+<li>
+<p>Convert the .bin file to a absolute .nb0 file
+    <code>$ cvrtbin -r -a IMAGE_START -w 32 -l LENGTH nk.bin</code>
+    Replace <code>IMAGE_START</code> and <code>LENGTH</code> with the values from the last step.</p>
+</li>
+<li>
+<p>Finnaly dump the contents of the rom
+    <code>$ dumprom.exe -d dump -v -5 nk.nb0</code>
+    ⚠️ The folder specifies with <code>-d</code> must exist before executing the command. </p>
+</li>
+</ol>
+<p>These steps can be repeated with the other files as well.</p>
+<h2 id="dumpromexe-source-code">Dumprom.exe source code<a class="headerlink" href="#dumpromexe-source-code" title="Permanent link">&para;</a></h2>
+<p><a href="https://nah6.com/~itsme/cvs-xdadevtools/dumprom/" title="https://nah6.com/~itsme/cvs-xdadevtools/dumprom/">https://nah6.com/~itsme/cvs-xdadevtools/dumprom/</a></p>
+<hr />
+<p><a href="../%F0%9F%97%BA%EF%B8%8F%20File%20Types/">🗺️ File Types</a></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Device%20Manager/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Device Manger" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Device Manger
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Gem%20Files/" class="md-footer__link md-footer__link--next" aria-label="Next: Gem Files" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Gem Files
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
