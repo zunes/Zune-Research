@@ -17,4 +17,6 @@ Files marked with 🗺️ (World Map Emoji) are overview notes and link you to a
 - [[🗺️ XNA Framework]]
 
 
+[[Workbench]] contains bunch of info. I add stuff quickly there during research so I don't forget it. 
+
 ![[ZuneHD.jpg]]

@@ -49,3 +49,19 @@ XnaChannelBroker                       Deployment/launch channel broker
 XnaScreenshotService                   Screenshot acquisition
 XNACHANx                               Brokered channel (x = returned channel ID)
 ```
+
+## Bootloader
+[BCT Overview](https://http.download.nvidia.com/tegra-public-appnotes/bct-overview.html)
+[Tegra Boot Flow](https://http.download.nvidia.com/tegra-public-appnotes/tegra-boot-flow.html)
+
+## Tegra Tools
+[GitHub - NVIDIA/cbootimage: Tegra BCT and bootable flash image generator/compiler](https://github.com/NVIDIA/cbootimage)
+[GitHub - NVIDIA/nvstrings: Legacy repository for nvstrings](https://github.com/NVIDIA/nvstrings)
+[GitHub - NVIDIA/tegra-pinmux-scripts: Scripts to auto-generate pin mux drivers and board configuration tables for Tegra SoCs and boards](https://github.com/NVIDIA/tegra-pinmux-scripts)
+[GitHub - NVIDIA/cbootimage-configs: Configuration files for use with cbootimage](https://github.com/NVIDIA/cbootimage-configs)
+[GitHub - NVIDIA/tegrarcm: Tegra ReCovery Mode tool; communicates with Tegra's boot ROM to download code over USB](https://github.com/NVIDIA/tegrarcm)
+[GitHub - NVIDIA/tegra-uboot-flasher-scripts: Tegra U-Boot Flasher project: scripts](https://github.com/NVIDIA/tegra-uboot-flasher-scripts)
+[GitHub - NVIDIA/tegra-rootfs-scripts: Tegra scripts](https://github.com/NVIDIA/tegra-rootfs-scripts)
+[GitHub - NVIDIA/tegra-nouveau-rootfs: Manifests to create an Arch Linux ARM rootfs augmented with Nouveau and the OSS graphics stack for NVIDIA's Jetson TK1/TX1 boards](https://github.com/NVIDIA/tegra-nouveau-rootfs)
+[GitHub - NVIDIA/tegra-uboot-scripts: Generate boot.scr for U-Boot on Tegra](https://github.com/NVIDIA/tegra-uboot-scripts)
+[GitHub - NVIDIA/tegra-uboot-flasher-manifests: Tegra U-Boot Flasher project: manifests (see https://github.com/NVIDIA/tegra-uboot-flasher-scripts)](https://github.com/NVIDIA/tegra-uboot-flasher-manifests)

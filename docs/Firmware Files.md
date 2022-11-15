@@ -27,7 +27,9 @@ DWORD Checksum; // Checksum (CRC32) of the block data
 [[TODO]]: Rewrite the text bellow:
 
 ### How it works
-The file starts with the header structure, followed by N number of block structures each one followed by the respective data of the block and a termination block composed of a block structure where address/size/checksum are set to 0. Note that some blocks can be missing and depending on the bootloader the region could be left untouched or erased (erased bytes could have any value, it depends on the type of memory (NAND erased bytes have FF value) and on the bootloader).  
+The file starts with the header structure, followed by N number of block structures each one followed by the respective data of the block. A block with Address / Size / Checksum set to 0 is a termination block and marks the end of the file. 
+
+Note that some blocks can be missing and depending on the bootloader the region could be left untouched or erased (erased bytes could have any value, it depends on the type of memory (NAND erased bytes have FF value) and on the bootloader).  
   
 #### How to check the integrity of a B000FF file
 Read the header, read the first block and check that its address equals ``ImageStart``, check that the termination block is present and check that the last block before the termination block address equals the sum of ``ImageStart + ImageLength``.  

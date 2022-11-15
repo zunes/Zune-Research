@@ -8,5 +8,11 @@ There are 3 different types of Storage Containers used by XNA:
 - **Game Containers:**  Mounted automatically at ``/gametitle/`` and stores all the deployed app content.
 - **Runtime Containers:** Mounted automatically at ``/gamert/`` and stores all the XNA Runtime libraries.
 - **Storage Containers:** Has to be [[XNA Apps#Files|manually loaded]] and will be mounted at ``/xnaa/``. Usually used for save files. 
+
+## Deployment
+When deploying an application to the Zune, it will receive all the files from the computer and then package them into a new zcp container. It is mounted during deploy and launch of the title. 
+
+DeployKit uses the same XNA apis as Visual Studio to deploy apps. 
+
 ---
 [[🗺️ File Types]], [[🗺️ XNA Framework]]
